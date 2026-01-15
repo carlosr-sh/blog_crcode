@@ -37,18 +37,31 @@ Introduzindo
 ```bash
 sbctl status
 ```
+
 Ele retorna:
 
-![Imagem](/static/images/sbctl-status.png)
+```bash
+❯ sbctl status
+Installed:	✓ sbctl is installed
+Owner GUID:	3b1a53a7-ae4f-47bb-92af-67c2d769cceb
+Setup Mode:	✓  Enabled
+Secure Boot:	✓ Disabled
+Vendor Keys:	microsoft
+```
+
 Indicando que eu tenho uma chave, pois eu já tinha criado, ele mostra também que eu tenho o secure boot em modo setup para configuração, esta mostrando o *Vendor Keys: microsoft* pois eu tenho uma instalação valida do windows, a microsoft assina todas suas chaves então é por isso que nunca precisamos assinar, já no linux a coisa é um pouco diferente, vamos assinar isso manualmente.
 
 Depois de rodar *sbctl create-keys* ele cria uma key para assinar nossas imagens efi, vamos registrar as chaves incluindo as da Microsoft: *sbctl enroll-keys -m*.
 
-Nesse passo você faz a verificação de quais keys você já possui:
+Nesse próximo passo você faz a verificação de quais keys você já possui:
 
-![sbctl_verify](/static/images/sbctl-verify.png)
+```bash 
+sudo sbctl verify
+```
 
-O uso do GRUB com Secure Boot e chaves personalizadas requer um passo extra muito importante: é necessário reinstalar o GRUB com parâmetros específicos para evitar que ele bloqueie o arranque por não encontrar o "Shim" (um intermediário de assinatura que não estamos a usar).
+Ele retorna todas as chaves que você tem, assinadas e não assinadas.
+
+como eu uso do GRUB com Secure Boot e chaves personalizadas requer um passo extra muito importante: é necessário reinstalar o GRUB com parâmetros específicos para evitar que ele bloqueie o arranque por não encontrar o "Shim" (um intermediário de assinatura que não estamos a usar).
 
 Execute o comando de instalação do GRUB novamente (ajuste o `--efi-directory` se o seu não for `/boot` ou `/boot/efi`):
 
@@ -75,4 +88,6 @@ sudo sbctl sign -s /boot/EFI/GRUB/grubx64.efi
 
 Vamos garantir que nada ficou para traz, rodando o comando *sudo sbctl verify*. Ele vai mostrar todos assinados.
 
-Agora você só precisa reiniciar e ativar o secure boot, que já vai estar funcionando
+Agora você só precisa reiniciar e ativar o secure boot, que já vai estar funcionando.
+
+No próximo passo eu vou trazer um Archlinux criptografado.
