@@ -1,4 +1,4 @@
-baseURL = 'https://seusite.netlify.app/' # mude isso
+baseURL = 'https://blogcrcode.netlify.app/' # agora ja esta certo
 languageCode = 'pt-br'
 title = 'CRCode Blog'
 theme = 'hugo-blog-awesome'
