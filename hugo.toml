@@ -1,0 +1,20 @@
+baseURL = 'https://seusite.netlify.app/' # mude isso
+languageCode = 'pt-br'
+title = 'CRCode Blog'
+theme = 'hugo-blog-awesome'
+copyright = "Carlos - CRCode © 2026"
+
+[params]
+  description = "Blog sobre Linux, Backend e Segurança"
+
+  [params.author]
+    name = "Carlos"
+    avatar = "images/avatar.png" 
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/seu-usuario"
+
+  [[params.social]]
+    name = "youtube"
+    url = "https://youtube.com/@CRCode"
