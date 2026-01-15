@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CRCode Blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on CRCode Blog</description>
+    <title>Posts on CRCode Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on CRCode Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Carlos - CRCode © 2026</copyright>
-    <lastBuildDate>Thu, 15 Jan 2026 16:31:56 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Jan 2026 16:31:56 -0300</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instalando Arch Linux</title>
       <link>http://localhost:1313/2026/01/15/instalando-arch-linux/</link>
