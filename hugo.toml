@@ -18,7 +18,8 @@ theme = 'PaperMod'
     Title = "Olá, sou o Carlos Roberto 👋"
     Content = """
     Bem-vindo ao meu blog pessoal.
-    Aqui compartilho meus estudos sobre **Linux**, **Backend (Go/Python/C#)** e **Cibersegurança**.
+    Aqui compartilho meus estudos sobre **Linux**, 
+    **Backend (Go/Python/C#)** e **Cibersegurança**.
     """
 
 
