@@ -1,10 +1,10 @@
-+++
+---
 date = '2026-01-15T21:01:56-03:00'
 draft = false
 title = 'Ativando secure boot no Arch Linux'
-+++
-
-### Ativando o secure boot no Archlinux em funcionamento
+tags: ["secureboot", "archlinux", "linux"]
+ShowToc: true
+---
 
 Estava eu querendo solucionar uma brecha nas minhas configurações do meu desktop, sempre tive a paranoia que um dia alguém pode ter acesso ao meu disco, meu dever é não facilitar esse acesso. 
 
