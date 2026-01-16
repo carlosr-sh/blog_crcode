@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CRCode Blog</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on CRCode Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.154.5</generator>
     <language>pt-br</language>
-    <copyright>Carlos - CRCode © 2026</copyright>
-    <lastBuildDate>Thu, 15 Jan 2026 16:31:56 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Jan 2026 21:01:56 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Instalando Arch Linux</title>
-      <link>http://localhost:1313/2026/01/15/instalando-arch-linux/</link>
-      <pubDate>Thu, 15 Jan 2026 16:31:56 -0300</pubDate>
-      
-      <guid>http://localhost:1313/2026/01/15/instalando-arch-linux/</guid>
-      
-      <description>&lt;h3 id=&#34;instalando-arch-linux-com-encriptação-luks-salvando-a-chave-com-tpm-e-secure-boot&#34;&gt;Instalando Arch linux com encriptação luks, salvando a chave com TPM e secure boot&lt;/h3&gt;
-&lt;p&gt;Estava eu querendo solucionar uma brecha nas minhas configurações do meu desktop, sempre tive a paranoia que um dia alguém pode ter acesso ao meu disco, meu dever é não facilitar esse acesso.&lt;/p&gt;
-&lt;p&gt;Então depois de anos usando linux e &lt;a href=&#34;https://archlinux.org/&#34;&gt;Archlinux&lt;/a&gt;, resolvi buscar a fundo e pesquisar sobre uma forma inteligente e segura de criptografar meu disco, e não ter que digitar a senha sempre que reiniciar meu computador.&lt;/p&gt;</description>
-      
+      <title>Ativando secure boot no Arch Linux</title>
+      <link>http://localhost:1313/2026/01/15/ativando-secure-boot-no-arch-linux/</link>
+      <pubDate>Thu, 15 Jan 2026 21:01:56 -0300</pubDate>
+      <guid>http://localhost:1313/2026/01/15/ativando-secure-boot-no-arch-linux/</guid>
+      <description>&lt;p&gt;Estava eu querendo solucionar uma brecha nas minhas configurações do meu desktop, sempre tive a paranoia que um dia alguém pode ter acesso ao meu disco, meu dever é não facilitar esse acesso.&lt;/p&gt;
+&lt;p&gt;Então depois de anos usando linux e &lt;a href=&#34;https://archlinux.org/&#34;&gt;Archlinux&lt;/a&gt;, resolvi buscar a fundo e pesquisar sobre uma forma inteligente e segura de criptografar meu disco, e não ter que digitar a senha sempre que reiniciar meu computador.&lt;/p&gt;
+&lt;p&gt;Antes de mais nada eu estava testando tudo em uma maquina virtual para depois colocar em pratica no meu computador pessoal. Usarei o &lt;a href=&#34;https://wiki.archlinux.org/title/Main_page&#34;&gt;Arch wiki&lt;/a&gt; como base para todos os passos.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
