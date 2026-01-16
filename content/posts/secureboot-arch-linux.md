@@ -1,7 +1,7 @@
 ---
-date = '2026-01-15T21:01:56-03:00'
-draft = false
-title = 'Ativando secure boot no Arch Linux'
+title: "Ativando secure boot no Arch Linux"
+date: 2026-01-15T21:01:56-03:00
+draft: false
 tags: ["secureboot", "archlinux", "linux"]
 ShowToc: true
 ---
