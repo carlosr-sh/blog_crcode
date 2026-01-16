@@ -1,9 +1,13 @@
 ---
-title: "Ativando secure boot no Arch Linux"
+title: Ativando secure boot no Arch Linux
 date: 2026-01-15T21:01:56-03:00
 draft: false
-tags: ["secureboot", "archlinux", "linux"]
+tags:
+  - secureboot
+  - archlinux
+  - linux
 ShowToc: true
+author: Carlos Roberto
 ---
 
 Estava eu querendo solucionar uma brecha nas minhas configurações do meu desktop, sempre tive a paranoia que um dia alguém pode ter acesso ao meu disco, meu dever é não facilitar esse acesso. 
