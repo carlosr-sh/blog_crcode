@@ -1,23 +1,52 @@
-baseURL = 'https://blogcrcode.netlify.app/' # agora ja esta certo
+baseURL = 'https://blogcrcode.netlify.app/' 
 languageCode = 'pt-br'
 title = 'CRCode Blog'
-theme = 'hugo-blog-awesome'
-copyright = "Carlos - CRCode © 2026"
+theme = 'PaperMod'
 
 [params]
-  description = "Blog sobre Linux, Backend e Segurança"
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true 
+  
+ 
+  [params.profileMode]
+    enabled = false 
+    title = "Carlos Roberto | CRCode"
+    subtitle = "Linux • Backend • Segurança"
+    imageUrl = "images/avatar.png" 
+    imageTitle = "Minha Foto"
+    imageWidth = 120
+    imageHeight = 120
 
-  [params.author]
-    name = "Carlos"
-    avatar = "images/avatar.png" 
 
-  [[params.social]]
+  [[params.socialIcons]]
     name = "github"
     url = "https://github.com/seu-usuario"
-
-  [[params.social]]
+  
+  [[params.socialIcons]]
     name = "youtube"
     url = "https://youtube.com/@CRCode"
 
-    [permalinks]
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/seu-usuario"
+
+# Menu do Topo
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+[permalinks]
   posts = '/:year/:month/:day/:slug/'
