@@ -1,7 +1,9 @@
 +++
+title = 'Ativando secure boot no Arch Linux'
 date = '2026-01-15T16:31:56-03:00'
 draft = false
-title = 'Ativando secure boot no Arch Linux'
+tags: ["linux", "arch", "terminal", "tutorial", "secureboot"]
+author: "Carlos Ferreira"
 +++
 
 ### Ativando o secure boot no Archlinux em funcionamento
