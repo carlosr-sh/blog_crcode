@@ -1,10 +1,10 @@
 +++
 date = '2026-01-15T16:31:56-03:00'
 draft = false
-title = 'Instalando Arch Linux'
+title = 'Ativando secure boot no Arch Linux'
 +++
 
-### Instalando Arch linux com encriptação luks, salvando a chave com TPM e secure boot
+### Ativando o secure boot no Archlinux em funcionamento
 
 Estava eu querendo solucionar uma brecha nas minhas configurações do meu desktop, sempre tive a paranoia que um dia alguém pode ter acesso ao meu disco, meu dever é não facilitar esse acesso. 
 

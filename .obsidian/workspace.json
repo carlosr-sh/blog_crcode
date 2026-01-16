@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/instalando-arch-linux.md",
+                "file": "content/posts/secureboot-arch-linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "instalando-arch-linux"
+              "title": "secureboot-arch-linux"
             }
           }
         ]
@@ -186,7 +186,7 @@
   "active": "659fbeae84c2555c",
   "lastOpenFiles": [
     "static/images/sbctl-verify.png",
-    "content/posts/instalando-arch-linux.md",
+    "content/posts/secureboot-arch-linux.md",
     "static/images/sbctl-status.png",
     "static/images/pronto.png"
   ]
