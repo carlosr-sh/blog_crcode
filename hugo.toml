@@ -1,4 +1,4 @@
-baseURL = 'https://615ebed7.blog-crcode.pages.dev' 
+baseURL = 'https://blog-crcode.pages.dev'
 languageCode = 'pt-br'
 title = 'CRCode Blog'
 theme = 'PaperMod'
