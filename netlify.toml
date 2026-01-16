@@ -3,8 +3,6 @@
   command = "hugo --gc --minify"
 
 [context.production.environment]
-  # Força o Netlify a usar uma versão recente (igual ou próxima da sua)
-  HUGO_VERSION = "0.128.0" 
-  # Garante que ele use a versão "Extended" (necessária para processar CSS/SCSS de alguns temas)
+  HUGO_VERSION = "0.154.0" 
   HUGO_EXTENDED = "true"
   HUGO_ENV = "production"
