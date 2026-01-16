@@ -9,30 +9,26 @@ theme = 'PaperMod'
   ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true 
-  
- 
+  ShowCodeCopyButtons = true
+
   [params.profileMode]
-    enabled = false 
-    title = "Carlos Roberto | CRCode"
-    subtitle = "Linux • Backend • Segurança"
-    imageUrl = "images/avatar.png" 
-    imageTitle = "Minha Foto"
-    imageWidth = 120
-    imageHeight = 120
+    enabled = false
+
+  [params.homeInfoParams]
+    Title = "Olá, sou o Carlos Roberto 👋"
+    Content = """
+    Bem-vindo ao meu blog pessoal.
+    Aqui compartilho meus estudos sobre **Linux**, **Backend (Go/Python/C#)** e **Cibersegurança**.
+    """
 
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/seu-usuario"
+    url = "https://github.com/carlosr-sh"
   
   [[params.socialIcons]]
     name = "youtube"
     url = "https://youtube.com/@CRCode"
-
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://linkedin.com/in/seu-usuario"
 
 # Menu do Topo
 [menu]
